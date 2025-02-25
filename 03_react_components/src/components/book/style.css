@@ -1,0 +1,64 @@
+body, html {
+  font-family: Arial, sans-serif;
+}
+
+input{
+  margin: 5px;
+  border: 1px #ffc400 solid;
+  border-radius: 5px;
+  &:hover{
+    border: 1px lightblue solid;
+  }
+
+}
+
+input:focus {
+  border: 1px #ffc400 solid;
+  background-color: aqua;
+}
+
+.cover-list{
+  width: 40px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.cover-detail{
+  width: 80px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.book-list, .book-detail, .book-input {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.book-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  &:hover{
+    border-radius: 10px;
+    background: #ffc400;
+  }
+}
+
+.book-item:last-child {
+  border-bottom: none;
+}
+
+button {
+  cursor: pointer;
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
