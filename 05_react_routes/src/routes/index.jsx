@@ -11,22 +11,23 @@ import Follow from "../pages/dashboard/profile/Follow";
 import Login from "../pages/Login";
 import Book from "../pages/Book";
 
-import NavBar from "../components/NavBar";
 import BlogDetails from "../components/BlogDetails";
+import Layout from "../components/Layout";
 
 const AppRoutes = () => {
   return (
     <>
-      <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/book/:bookId" element={<Book />} />
-        <Route path="/blog/:blogIndex" element={<BlogDetails />} />
-        <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="dashboard" element={<Dashboard />}>
-          <Route index element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/book/:bookId" element={<Book />} />
+          <Route path="/blog/:blogIndex" element={<BlogDetails />} />
+          <Route path="/about" element={<About />} />
+          <Route path="dashboard" element={<Dashboard />}>
+            <Route index element={<Profile />} />
+          </Route>
           <Route path="profile" element={<Profile />}>
             <Route index element={<Fans />} />
             <Route path="fans" element={<Fans />} />

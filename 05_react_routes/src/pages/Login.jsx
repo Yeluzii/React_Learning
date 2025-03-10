@@ -16,7 +16,6 @@ const Login = () => {
 
     if (user) {
       localStorage.setItem("user", JSON.stringify(user));
-      window.dispatchEvent(new Event("userStatusChanged"));
       navigate("/");
     } else {
       messageApi.error("用户名或密码错误");
