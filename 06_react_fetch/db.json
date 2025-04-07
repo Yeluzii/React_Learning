@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1704182400000",
+      "title": "现代前端构建工具：Vite vs Webpack",
+      "body": "Vite 作为新一代的前端构建工具，采用了基于 ESM 的开发服务器，在开发环境下实现了快速的冷启动和即时的模块热更新。相比传统的 Webpack，Vite 在开发体验上有了质的提升。本文将深入对比两者的优劣势，并探讨在不同场景下的最佳选择。",
+      "image": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+      "author": "张文思",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "1704268800000",
+      "title": "包管理工具的演进：从 npm 到 pnpm",
+      "body": "随着前端项目规模的不断扩大，高效的包管理变得越来越重要。pnpm 通过硬链接和内容寻址存储的创新机制，不仅节省了磁盘空间，还显著提升了安装速度。本文将详细介绍 pnpm 的工作原理及其带来的优势。",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+      "author": "李明远",
+      "date": "2024-01-03"
+    },
+    {
+      "id": "1704355200000",
+      "title": "前端自动化测试最佳实践",
+      "body": "自动化测试是保证前端工程质量的重要手段。从单元测试到端到端测试，合理的测试策略可以大大降低线上故障率。本文将分享如何使用 Jest、Testing Library 和 Cypress 构建完整的测试体系。",
+      "image": "https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg",
+      "author": "王测试",
+      "date": "2024-01-04"
+    },
+    {
+      "id": "1704441600000",
+      "title": "现代化 CSS 工程化方案",
+      "body": "CSS 工程化已经远远超出了简单的样式编写。从 CSS Modules 到 CSS-in-JS，再到原子化 CSS，不同的方案都有其适用场景。本文将深入探讨这些方案的优劣，并提供实际的最佳实践建议。",
+      "image": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg",
+      "author": "陈设计",
+      "date": "2024-01-05"
+    },
+    {
+      "id": "1704528000000",
+      "title": "前端微服务架构实践",
+      "body": "随着业务的复杂度提升，微前端架构逐渐成为大型应用的首选方案。本文将介绍如何使用 Module Federation 实现微前端架构，以及如何解决跨应用通信、样式隔离等关键问题。",
+      "image": "https://images.pexels.com/photos/7376/startup-photos.jpg",
+      "author": "赵架构",
+      "date": "2024-01-06"
+    },
+    {
+      "id": "1704614400000",
+      "title": "前端性能优化工程化",
+      "body": "性能优化不应该是事后补救，而是应该在工程化流程中就开始考虑。从构建优化、资源加载到运行时性能，本文将分享如何在工程化流程中构建性能优化体系。",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
+      "author": "孙优化",
+      "date": "2024-01-07"
+    },
+    {
+      "id": "1704700800000",
+      "title": "现代前端监控体系搭建",
+      "body": "前端监控是保证应用质量的重要手段。从错误监控、性能监控到用户行为分析，本文将介绍如何搭建完整的前端监控体系，以及如何利用监控数据持续优化产品。",
+      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg",
+      "author": "吴监控",
+      "date": "2024-01-08"
+    },
+    {
+      "id": "1704787200000",
+      "title": "前端 CI/CD 实践指南",
+      "body": "持续集成和持续部署是现代前端工程化不可或缺的一环。本文将详细介绍如何使用 GitHub Actions 构建自动化的 CI/CD 流程，提高团队的开发效率。",
+      "image": "https://images.pexels.com/photos/1181678/pexels-photo-1181678.jpeg",
+      "author": "刘部署",
+      "date": "2024-01-09"
+    },
+    {
+      "id": "1704873600000",
+      "title": "前端工程化下的代码规范",
+      "body": "统一的代码规范是提高团队协作效率的基础。从 ESLint、Prettier 到 Husky，本文将分享如何通过工具链来保证代码质量和风格的一致性。",
+      "image": "https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg",
+      "author": "周规范",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "1704960000000",
+      "title": "现代化前端构建产物优化",
+      "body": "构建产物的优化直接影响着应用的加载性能。从代码分割、tree shaking 到资源压缩，本文将深入探讨如何优化前端构建产物，提升应用性能。",
+      "image": "https://images.pexels.com/photos/1181683/pexels-photo-1181683.jpeg",
+      "author": "郑优化",
+      "date": "2024-01-11"
+    }
+  ]
+}

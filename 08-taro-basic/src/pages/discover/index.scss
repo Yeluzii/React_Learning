@@ -1,0 +1,15 @@
+.discover{
+  background-color: #f6f6f6;
+  padding: 20px;
+  height: 100vh;
+  .box{
+    margin: 30px;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+    &:hover{
+      scale: 1.1;
+    }
+  }
+}

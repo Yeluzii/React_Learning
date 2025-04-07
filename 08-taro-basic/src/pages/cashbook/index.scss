@@ -1,0 +1,96 @@
+.cashbook {
+  background-color: #f6f6f6;
+  padding: 20px;
+
+  .stats-container {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 12px;
+
+    .stat-item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .stat-label {
+        font-size: 16px;
+        color: #666;
+      }
+
+      .stat-amount {
+        font-size: 24px;
+        font-weight: bold;
+
+        &.income {
+          color: #07c160;
+        }
+
+        &.expense {
+          color: #ee0a24;
+        }
+      }
+    }
+  }
+  height: 100vh;
+
+  .form-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .input-group {
+      margin-bottom: 15px;
+      Input {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 16px;
+      }
+    }
+
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+  }
+
+  .record-list {
+    height: 60vh;
+    .record-item {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 10px;
+      box-shadow: 2px 2px 5px #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .amount {
+        color: #e4393c;
+        font-weight: bold;
+        font-size: 24px;
+      }
+
+      .remark {
+        color: #666;
+        flex: 1;
+        margin: 0 15px;
+      }
+
+      .date {
+        color: #999;
+        font-size: 12px;
+      }
+    }
+  }
+}
