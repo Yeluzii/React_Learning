@@ -1,0 +1,9 @@
+.note-card{
+  margin: 30px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888;
+  .note-info{
+    text-overflow:ellipsis;
+  }
+}

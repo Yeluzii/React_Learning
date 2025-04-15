@@ -1,0 +1,66 @@
+.skyline-page {
+  padding: 20px;
+
+  // GridView 样式
+  .grid-view {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+
+    .grid-item {
+      height: 160px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .grid-item-text {
+        color: #fff;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  // ListView 样式
+  .list-view {
+    background-color: #f5f5f5;
+    border-radius: 16px;
+    padding: 10px;
+
+    .list-item {
+      padding: 15px;
+      background-color: #fff;
+      margin-bottom: 1px;
+
+      .list-item-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .list-item-desc {
+        font-size: 28px;
+        color: #666;
+      }
+    }
+  }
+
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  .sticky-button {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+// 在现有样式最后追加

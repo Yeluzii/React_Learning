@@ -1,0 +1,54 @@
+/* index.scss */
+.copy-section,
+.paste-section{
+  margin: 30px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* 添加内边距使内容不紧贴边缘 */
+  background-color: #f8f9fa; /* 灰色背景 */
+  height: 100vh; /* 让组件充满整个视口 */
+}
+
+.title {
+  font-size: 20px; /* 增大标题字体 */
+  font-weight: bold; /* 加粗标题 */
+  margin-bottom: 15px; /* 与下方元素留出空间 */
+  color: #333; /* 深色文本 */
+}
+
+.input {
+  width: 100%; /* 让输入框充满宽度 */
+  max-width: 400px; /* 限制最大宽度 */
+  padding: 10px; /* 添加内边距 */
+  margin-bottom: 15px; /* 与下方元素留出空间 */
+  border: 1px solid #ced4da; /* 边框颜色 */
+  border-radius: 5px; /* 圆角 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 加入阴影效果 */
+}
+
+.copy-button,
+.paste-button {
+  padding: 10px;
+  background-color: #d9ff00;
+  color: blue; /* 按钮字体颜色 */
+  border-radius: 30px; /* 圆角 */
+  transition: background-color 0.3s; /* 过渡效果 */
+  margin-bottom: 15px;
+}
+
+.copy-button:hover,
+.paste-button:hover {
+  background-color: #0056b3; /* 悬停时改变颜色 */
+}
+
+button:disabled {
+  background-color: #dee2e6; /* 禁用按钮的背景颜色 */
+  cursor: not-allowed; /* 禁用时鼠标悬停为禁止图标 */
+}
